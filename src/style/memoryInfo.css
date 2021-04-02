@@ -1,0 +1,30 @@
+.memStor .memory {
+  height: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.memStor .memory .txtInfo {
+  width: 50%;
+  height: 100%;
+}
+.memStor .memory .txtInfo .data .param {
+  display: flex;
+}
+.memStor .memory .txtInfo .data .param {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+.memStor .memory .txtInfo .data .param .name {
+  width: 38%;
+}
+.memStor .memory .txtInfo .data .param .value {
+  width: 60%;
+}
+
+.memStor .memory .memChart {
+  width: 50%;
+  height: calc((30 / 100) * 33vw);
+}

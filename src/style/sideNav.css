@@ -1,0 +1,50 @@
+.sideNav {
+  width: 20%;
+  background: #136a8a;
+  background: linear-gradient(to right, #267871, #136a8a);
+  box-shadow: 9px 0px 20px 0px #136a8a99;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px auto;
+  align-items: center;
+}
+.sideNav .top .name {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px;
+  color: aliceblue;
+  font-weight: 600;
+}
+.sideNav .top .dateTime {
+  margin: 10px;
+  color: #ffffffb6;
+  border-bottom: 1px solid #ffffffb6;
+}
+.sideNav .navBtns {
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.sideNav .navBtns div {
+  color: aliceblue;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: #ffffff21;
+}
+.sideNav .navBtns div:hover,
+.sideNav .navBtns div.active {
+  cursor: pointer;
+  background-color: #ffffff73;
+}
+
+.sideNav .credits {
+  color: #cfcfcf;
+  margin-bottom: 30px;
+}

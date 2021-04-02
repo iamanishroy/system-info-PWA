@@ -1,0 +1,44 @@
+.memStor .storage {
+  height: 68%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+/*
+for side nav
+background: #2C3E50;  
+background: -webkit-linear-gradient(to top, #4CA1AF, #2C3E50);  
+background: linear-gradient(to top, #4CA1AF, #2C3E50); 
+*/
+
+.memStor .storage .drive {
+  height: 45%;
+  width: 45%;
+  border-radius: 30px;
+  background: #03723f;
+  background: -webkit-linear-gradient(bottom left, #03723f, #38e5b5);
+  background: -moz-linear-gradient(bottom left, #03723f, #38e5b5);
+  background: linear-gradient(to top right, #03723f, #0eb284);
+  box-shadow: -6px 5px 9px 0px #03723f52;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.memStor .storage .drive div {
+  height: auto;
+  text-align: center;
+  color: aliceblue;
+}
+.memStor .storage .drive div p {
+  color: #dfdfdf;
+  font-size: .8rem;
+}
+.memStor .storage .drive div h3 {
+  margin-top: 20px;
+}
+
+.memStor .storage .drive div h2 {
+  color: #ffffff;
+}

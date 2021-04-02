@@ -1,0 +1,27 @@
+.header {
+  height: 3.5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .nav_btn {
+  width: 32vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header .nav_btn span {
+  height: 2rem;
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #07808021;
+  box-shadow: 1px 1px 8px 2px #07808033;
+  border-radius: 6px;
+  color: #232323;
+  font-weight: 600;
+}

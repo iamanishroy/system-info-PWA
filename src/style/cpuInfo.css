@@ -1,0 +1,59 @@
+.cpu {
+  height: 96vh;
+  width: 43vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cpu .txtInfo {
+  height: auto;
+}
+.infoContent .component {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.cpu .txtInfo .data {
+  display: flex;
+  justify-content: space-between;
+}
+.cpu .txtInfo .data .row {
+  width: 48%;
+}
+.cpu .txtInfo .data .row .param {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+.cpu .txtInfo .data .row .param .name {
+  width: 38%;
+}
+.cpu .txtInfo .data .row .param .value {
+  width: 60%;
+}
+
+.cpu .cpuChart {
+  height: 30%;
+}
+.cpu #cpuChart {
+  height: 100%;
+  /* width: 100%; */
+}
+/******************/
+.cpu .cpuChart img {
+  height: 100%;
+  width: 100%;
+}
+/******************/
+
+.cpu .processors {
+  height: 48%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cpu .processors .processor {
+  height: 48%;
+  width: 24%;
+}
